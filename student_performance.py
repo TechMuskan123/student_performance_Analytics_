@@ -112,7 +112,7 @@ def main():
     print(
         result_data[
             ["Student_ID", "Name", "Department",
-             "Total_Marks", "Average_Marks", "Grade", "Result"]
+             "Total_Marks", "Average_Marks", "Grade", "Result"] 
         ].head().to_string(index=False)
     )
 
